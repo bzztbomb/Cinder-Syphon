@@ -134,7 +134,7 @@ void syphonClient::bind()
 		mTex = ci::gl::Texture::create(GL_TEXTURE_RECTANGLE_ARB, m_id,
 								   texSize.width, texSize.height, true);
 		mTex->setFlipped();
-		
+		    
 		mTex->bind();
     }
     else
